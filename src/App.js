@@ -35,7 +35,6 @@ function App() {
       const newRepositories = repositories.filter(repo => repo.id !== id)
       setRepositories(newRepositories)
     })
-
   }
 
   return (
